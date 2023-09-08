@@ -28,6 +28,14 @@
     margin-right: 20px;
 
 }
+.nav-bar-logo{
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar-logo h1{
+    margin-left: 20px;
+    margin-top: 15px;
+}
 .nav-bar-logo img{
     font-size: 15px;
 }
@@ -60,7 +68,7 @@
     left: 158px;
 }
 #building2:hover{
-    scale: 1.05;
+    scale: 1.02;
 }
 #building2{
     position: absolute;
