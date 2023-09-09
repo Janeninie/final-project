@@ -19,7 +19,7 @@
     left: 0;
     width: 100vw;
     height: 75px;
-    z-index: 2;
+    z-index: 100;
 }
 .nav-bar a{
     text-decoration: none;
@@ -49,23 +49,25 @@
 }
 
 .map{
-    width: 1050px;
-    height: 700px;
+    margin-top: 70px;
+    width: 1200px;
+    height: 800px;
     position: relative;
     background-repeat: no-repeat;
     background-image: url("../svg/road.svg");
+    background-size: contain;
 }
 #building3{
     position: absolute;
-    z-index: 1;
-    top: 33px;
-    left: 60px;
+    z-index: 2;
+    top: 60px;
+    left: 150px;
 }
 #building1{
     position: absolute;
     z-index: 1;
-    top: 350px;
-    left: 158px;
+    top: 410px;
+    left: 200px;
 }
 #building2:hover{
     scale: 1.02;
@@ -73,32 +75,62 @@
 #building2{
     position: absolute;
     z-index: 1;
-    top: 350px;
-    left: 485px;
+    top: 410px;
+    left: 585px;
 }
 #building100{
     position: absolute;
     z-index: 1;
-    top: 315px;
-    left: 783px;
+    top: 370px;
+    left: 930px;
 }
 #building4{
     position: absolute;
     z-index: 1;
-    bottom: 50px;
-    left: 790px;
+    bottom: 70px;
+    right: 80px;
 }
 #building-mech{
     position: absolute;
     z-index: 1;
-    bottom: 60px;
-    left: 460px;
+    bottom: 70px;
+    left: 570px;
 }
 #building-chem{
     position: absolute;
     z-index: 1;
-    bottom: 50px;
-    left: 210px;
+    bottom: 60px;
+    left: 280px;
+}
+#building-arun{
+    position: absolute;
+    z-index: 2;
+    top: 210px;
+    right: 170px;
+}
+#building-bunrod{
+    position: absolute;
+    z-index: 2;
+    bottom: 230px;
+    left: 50px;
+}
+#building-charl{
+    position: absolute;
+    z-index: 2;
+    bottom: 140px;
+    left: 70px;
+}
+#ENG16{
+    position: absolute;
+    z-index: 2;
+    bottom: 60px;
+    left: 200px;
+}
+#true-coffee{
+    position: absolute;
+    z-index: 2;
+    bottom: 60px;
+    left: 120px;
 }
 #div2{
     width: 100vw;
