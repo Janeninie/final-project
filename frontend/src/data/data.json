@@ -1,0 +1,23 @@
+[
+    {
+        "name" : "ตีก 3",
+        "floors" : 4,
+        "details" : [
+            {
+                "floor1" : {
+                    "image" : ""
+                },
+                "floor2" : {
+                    "image" : ""
+                },
+                "floor3" : {
+                    "image" : ""
+                },
+                "floor4" : {
+                    "image" : ""
+                }
+            }
+        ]
+
+    }
+]

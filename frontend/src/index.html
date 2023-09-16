@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map Engineering Faculty</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <nav class="nav-bar">
@@ -19,58 +20,63 @@
     </nav>
     <div class="container" id="container">
         <div class="map">
-            <div id="building3">
-                <a href="#div2">
-                    <img src="../svg/building3.svg">
+            <div id="building3"  onclick="loadtextbyid(this)">
+                <a href="#">
+                    <img src="../svg/b3.png">
                 </a>
             </div>
-            <div id="building-arun">
+            <div id="building-arun"  onclick="loadtextbyid(this)"> 
                 <a href="#div3">
                     <img src="../svg/building-arun.svg">
                 </a>
             </div>
-            <div id="building-bunrod">
+            <div id="building-bunrod"  onclick="loadtextbyid(this)">
                 <a href="#div3">
                     <img src="../svg/building-bunrod.svg">
                 </a>
             </div>
-            <div id="building-charl">
+            <div id="building-charl" onclick="loadtextbyid(this)">
                 <a href="#div3">
                     <img src="../svg/building-charl.svg">
                 </a>
             </div>
             <div id="ENG16">
-                <a href="#div3">
+                <a href="#div3" onclick="loadtextbyid(this)">
                     <img src="../svg/ENG16.svg">
                 </a>
             </div>
-            <div id="true-coffee">
+            <div id="true-coffee" onclick="loadtextbyid(this)">
                 <a href="#div3">
                     <img src="../svg/true-coffee.svg">
                 </a>
             </div>
-            <div id="building1">
+            <div id="building1" onclick="loadtextbyid(this)">
                 <a href="#div2"><img src="../svg/building1.svg"></a>
             </div>
-            <div id="building2">
+            <div id="building2" onclick="loadtextbyid(this)">
                 <a href="#div2"><img src="../svg/building2.svg"></a>
             </div>
-            <div id="building100">
+            <div id="building100" onclick="loadtextbyid(this)">
                 <a href="#div2"><img src="../svg/building100.svg"></a>
             </div>
-            <div id="building4">
+            <div id="building4" onclick="loadtextbyid(this)">
                 <a href="#div2"><img src="../svg/building4.svg"></a>
             </div>
-            <div id="building-mech">
+            <div id="building-mech" onclick="loadtextbyid(this)">
                 <a href="#div2"><img src="../svg/building-mech.svg"></a>
             </div>
-            <div id="building-chem">
+            <div id="building-chem" onclick="loadtextbyid(this)">
                 <a href="#div2"><img src="../svg/building-chem.svg"></a>
             </div>
         </div>
     </div>
+
+    <!-- Detail DIV -->
     <div id="div2">
+        <div id="image-container"></div>
+        <div id="right-bar"></div>
         <a href="#container">Back</a>
     </div>
 </body>
+
 </html>

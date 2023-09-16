@@ -7,6 +7,7 @@
 
 }
 
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -49,19 +50,19 @@
 }
 
 .map{
-    margin-top: 70px;
+    margin-top: 5%;
     width: 1200px;
     height: 800px;
     position: relative;
     background-repeat: no-repeat;
-    background-image: url("../svg/road.svg");
+    background-image: url("../svg/Road.png");
     background-size: contain;
 }
 #building3{
     position: absolute;
     z-index: 2;
-    top: 60px;
-    left: 150px;
+    top: 3%;
+    left: 4%;
 }
 #building1{
     position: absolute;
@@ -145,4 +146,17 @@
     position: absolute;
     color: black;
     font-size: 45px;
+}
+#image-container{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background-color: brown;
+}
+#right-bar{
+    position: absolute;
+    width: 30%;
+    right: 0;
+    height: 100%;
+    background-color: blueviolet;
 }
