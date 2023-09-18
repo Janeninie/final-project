@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Engineering Faculty</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <img class="navbar-menu" src="../svg/Menu.svg">
+        <h1 class="navbar-title">VidvaMap</h1>
+        <img class="navbar-search" src="../svg/Search.svg">
+    </nav>
+
+    <div class="container" id="container">
+        <div class="map">
+            <div id="building3">
+                <a href="#div2">
+                    <img src="../svg/building3.svg">
+                </a>
+            </div>
+            <div id="building-arun">
+                <a href="#div3">
+                    <img src="../svg/building-arun.svg">
+                </a>
+            </div>
+            <div id="building-bunrod">
+                <a href="#div3">
+                    <img src="../svg/building-bunrod.svg">
+                </a>
+            </div>
+            <div id="building-charl" onclick="loadtextbyid(this)">
+                <a href="#div3">
+                    <img src="../svg/building-charl.svg">
+                </a>
+            </div>
+            <div id="ENG16">
+                <a href="#div3">
+                    <img src="../svg/ENG16.svg">
+                </a>
+            </div>
+            <div id="true-coffee" onclick="loadtextbyid(this)">
+                <a href="#div3">
+                    <img src="../svg/true-coffee.svg">
+                </a>
+            </div>
+            <div id="building1" onclick="loadtextbyid(this)">
+                <a href="#div2"><img src="../svg/building1.svg"></a>
+            </div>
+            <div id="building2" onclick="loadtextbyid(this)">
+                <a href="#div2"><img src="../svg/building2.svg"></a>
+            </div>
+            <div id="building100" onclick="loadtextbyid(this)">
+                <a href="#div2"><img src="../svg/building100.svg"></a>
+            </div>
+            <div id="building4" onclick="loadtextbyid(this)">
+                <a href="#div2"><img src="../svg/building4.svg"></a>
+            </div>
+            <div id="building-mech" onclick="loadtextbyid(this)">
+                <a href="#div2"><img src="../svg/building-mech.svg"></a>
+            </div>
+            <div id="building-chem" onclick="loadtextbyid(this)">
+                <a href="#div2"><img src="../svg/building-chem.svg"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="zoom-btn">
+        <div class="zoom-btn-container">
+            <button id="zoomInBtn">
+                <img src="../svg/Add.svg">
+            </button>
+            <div class="line"></div>
+            <button id="zoomOutBtn">
+                <img src="../svg/Remove.svg">
+            </button>
+        </div>
+    </div>
+
+    <!-- Detail DIV -->
+    <div id="div2">
+        <div id="image-container"></div>
+        <div id="right-bar"></div>
+        <a href="#container">Back</a>
+    </div>
+
+</body>
+
+</html>
