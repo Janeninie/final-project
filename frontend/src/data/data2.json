@@ -1,1 +1,69 @@
+[
+  {
+    "name" : "ตีก 3",
+    "name_eng" : "Engineering Building 3",
+    "details" : [ "คาเฟ่ Amazon", "ห้องประชุมใหญ่"]
 
+  },
+  {
+    "name" : "โรงอาหาร",
+    "name_eng" : "I-Canteen",
+    "details" : ["ร้านอาหาร"]
+  },
+  {
+    "name" : "อาคารอรุณ สรเทศน์",
+    "name_eng" : "Arun Sorathet Building",
+    "details" : null
+  },
+  {
+    "name" : "อาคารวิศวฯ 100 ปี",
+    "name_eng" : "Centennial Engineering Building",
+    "details" : ["ห้องเรียน i-Scale"]
+  },
+  {
+    "name" : "อาคารเจริญวิศวกรรม (ตึก 4)",
+    "name_eng" : "Chareon Wisawakam Building",
+    "details" : ["ห้องประชุม", "ภาควิชาวิศวกรรมคอมพิวเตอร์"]
+  },
+  {
+    "name" : "ตึก 2",
+    "name_eng" : "Engineering Building 2",
+    "details" : ["หลักสูตรวิศวกรรมศาสตร์นานาชาติ"]
+  },
+  {
+    "name" : "ตรงสีม่วงๆ",
+    "name_eng" : "purple area",
+    "details" : [
+    {
+      "name" : "ตึกโคลัมโบ",
+      "name_eng" : "Colombo Building",
+      "details" : ["ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์"]
+    },
+    {
+      "name" : "ตึกปฏิบัติการภาควิชาวิศวกรรมเครื่องกล",
+      "name_eng" : "Mechanical Engineering Laboratories",
+      "details" : ["ห้องปฏิบัติการภาควิชาวิศวกรรมเครื่องกล"]
+    },
+    {
+      "name" : "ตึกฮันส์ บันตลิ",
+      "name_eng" : "Hans Bantli Building",
+      "details" : ["ภาควิชาวิศวกรรมเครื่องกล"]
+    },
+    {
+      "name" : "ตึกปฏิบัติการภาควิชาวิศวกรรมเหมืองแร่",
+      "name_eng" : "Mining and Petroleum Engineering Laboratories",
+      "details" : ["ห้องปฏิบัติการภาควิชาวิศวกรรมเหมืองแร่"]
+    },
+    {
+      "name" : "ตึกสลับ ลดาวัลย์",
+      "name_end" : "Salab Ladwal Building",
+      "details" : ["ภาควิชาวิศวกรรมเหมืองแร่และปิโตรเลียม"]
+    }
+      
+    
+    ]
+  }
+  
+  
+  
+]
