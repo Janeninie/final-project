@@ -56,13 +56,74 @@
     },
     {
       "name" : "ตึกสลับ ลดาวัลย์",
-      "name_end" : "Salab Ladwal Building",
+      "name_eng" : "Salab Ladwal Building",
       "details" : ["ภาควิชาวิศวกรรมเหมืองแร่และปิโตรเลียม"]
+    },
+    {
+      "name" : "ตึกปฏิบัติการรวม (ตึก 4 ภาควิชา)",
+      "name_eng" : "Center Laboratory building",
+      "details" : ["ห้องปฏิบัติการคอมพิวเตอร์"]
+    },
+    {
+      "name" : "ตึกศัลวิธานนิเทศ",
+      "name_eng" : "Salvithan Nithet Building",
+      "details" : [""]
+    },
+    {
+      "name" : "อาคารภาควิชาวิศวกรรมนิวเคลียร์",
+      "name_eng" : "Nuclear Engineering Building",
+      "details" : [""]
+    },
+    {
+      "name" : "อาคารอนุสาสน์ยันตรกรรม (ตึก 5)",
+      "name_eng" : "Anusasnyantrakarma Building",
+      "details" : [""]
+    },
+    {
+      "name" : "อาคารภาควิชาวิศวกรรมโยธาและภาควิชาวิศวกรรมสิ่งแวดล้อม",
+      "name_eng" : "Civil Engineering and Environmental Building",
+      "details" : [""]
+    },
+    {
+      "name" : "อาคารปฏิบัติการทดสอบโครงสร้างขนาดจริง",
+      "name_eng" : "Full-scale Testing Lab. Building",
+      "details" : [""]
+    },
+    {
+      "name" : "อาคารปฏิบัติการไฟฟ้าแรงสูง",
+      "name_eng" : "Hight Voltage Laboratory Building",
+      "details" : [""]
+    },
+    {
+      "name" : "ตึกปฏิบัติการเจริญวิศวกรรม",
+      "name_eng" : "Chareon Wisawakam Building Laboratoty",
+      "details" : [""]
+    },
+    {
+      "name" : "ตึกที่พักอาจารย์",
+      "name_eng" : "Electrical Engineering Faculty Club",
+      "details" : [""]
+    },
+    {
+      "name" : "ตึกห้องสมุดอิเล็กทรอนิกส์และไมโครคอมพิวเตอร์",
+      "name_eng" : "Electrical and Microcomputer Library",
+      "details" : [""]
+    },
+    {
+      "name" : "ตึกชาร์ลเอมสัน เกเวอร์ต",
+      "name_eng" : "Charles M. Son Gewerts Building",
+      "details" : [""]
+    },
+    {
+      "name" : "ตึก 1",
+      "name_eng" : "Engineering Building 1",
+      "details" : [""]
+    },
+    {
+      "name" : "อาคารบุญรอด บิณฑสันต์",
+      "name_eng" : "Boonrod Binson Building",
+      "details" : [""]
     }
-      
-    
-    ]
-  }
   
   
   
